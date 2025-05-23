@@ -1,0 +1,8 @@
+#div1{
+    background-color: rgb(236, 212, 180);
+    width: 500px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    margin: 20px auto;
+    padding: 20px;
+}
