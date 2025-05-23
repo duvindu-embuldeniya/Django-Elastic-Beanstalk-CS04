@@ -5,7 +5,11 @@
 
     <div id="div1">
 
-        ddd
+        {% if request.user.is_authenticated %}
+            Welcome Back {{request.user.username}}, Have a Nice Day!!!
+        {% else %}
+            Welcome Back!
+        {% endif %}
 
     </div>
 

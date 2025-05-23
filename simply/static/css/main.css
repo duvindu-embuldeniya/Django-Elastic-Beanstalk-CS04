@@ -6,3 +6,13 @@
     margin: 20px auto;
     padding: 20px;
 }
+
+
+#msg{
+    background-color: rgb(87, 132, 245);
+    width: 400px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    margin: 20px auto;
+    padding: 20px;
+}

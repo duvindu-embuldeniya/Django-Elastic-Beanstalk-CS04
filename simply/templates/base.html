@@ -12,6 +12,13 @@
 <body>
     {% include 'navbar.html' %}
 
+    {% if messages %}
+        {% for message in messages %}
+            <div id="msg">
+                {{message}}
+            </div>
+        {% endfor %}
+    {% endif %}
 
     {% block content %}
     {% endblock content %}
